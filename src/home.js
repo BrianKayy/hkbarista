@@ -41,7 +41,7 @@ const Home  = () => {
           </div>
           <div className="no2">
             <h3>I'M A LEADER</h3>
-            <p>I manage my team with a great skill to provide an elevated great atmosphere at work.</p>
+            <p>I manage my team with  great skills to provide an elevated working atmosphere.</p>
             <p>Scheduling and allocating staff to work-stations. </p>
             <p>I train new staff and ensure they follow the outlet's SOP.</p>
             <p>Planning for the outlet and ensuring continous supply of food and beverages to customers.</p>

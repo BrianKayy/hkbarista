@@ -8,7 +8,7 @@ const contacts = () => {
       <form class="form">
         <div class="form-group">
           <label for="name">Enter your name</label>
-          <input type="text" id="email" name="name" required=""/>
+          <input type="text" id="name" name="name" required=""/>
         </div>
         <div class="form-group">
           <label for="email">Company Email</label>
