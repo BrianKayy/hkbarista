@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="name">
                 <h3>HAKIM SSEMBATYA</h3>
                 {/* <h5><i class="fa-regular fa-envelope"></i>movicbanks18@gmail.com</h5> */}
-                <h5>  <i class="fa-solid fa-location-dot"></i>+971562341357</h5>
+                <h5> +971562341357</h5>
                 </div>
 
        
