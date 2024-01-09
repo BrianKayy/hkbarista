@@ -12,12 +12,11 @@ const Home  = () => {
                 </div>
               <div className="objective">
                 <h3>HAKIM SSEMBATYA</h3>
-                   <h5> Coffeeshop|Restaurant manager</h5>
-              <p>Hi, I'm Hakim an outlet-manager with 6 years of experience supporting well-attended events and caffè operations.
+                   <h5>Food $ Beverages Outlet Assistant-Manager</h5>
+              <p>Hi, I'm Hakim an outlet assistant-manager with six years of experience supporting well-attended events and caffè operations.
                Adept at creating innovative drink recipes, inventory manager and brewer. Thoughtful and detail-oriented theme
-                and event planner, coordinating staffing and providing guidance for employees when necessary. Seeking to
-                 leverage my passion for coffee and managerial abilities to continue enhancing the reputation and success of
-                  a dynamic coffee establishment. </p>
+                and event planner, coordinating staffing and providing guidance for employees when necessary.
+                  </p>
 
                   <button>
                   <Link to='/contacts'>CONTACT <i class="fa-solid fa-arrow-right"></i></Link>
@@ -30,8 +29,8 @@ const Home  = () => {
          <div className="expert">
           <div className="no2">
          
-            <h3>I'M A BARISTA</h3>
-            <p>Restaurant|caffè setup for example menu formation, recipe, equipment purchase.</p>
+            <h3>I'M A COFFEE EXPERT</h3>
+            <p>Caffè setup for example menu formation, recipe, equipment purchase.</p>
             <p>Cordial & great customer service, upselling & suggestive selling.</p>
             <p>Creative and beautiful latte art skills.</p>
             <p>Recipe formation for both hot and cold beverages.</p>
