@@ -1,10 +1,72 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import gallery from './gallery';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css'; 
+import image1 from './images/hk1.jpeg';
+import image2 from './images/hk2.jpeg';
+import image3 from './images/hk3.jpeg';
+import image4 from './images/hk4.jpeg';
+import image5 from './images/hk5.jpeg';
+import image6 from './images/hk6.jpeg';
+import image7 from './images/hk7.jpeg';
+import image8 from './images/hk8.jpeg';
+import image9 from './images/hk9.jpeg';
+import blog   from  './images/blog.jpeg';
 const Home  = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 1500,
+    cssEase: "linear"
+  };
+   
   return (
     <div className='main'>
-      
+          <div className='slide'>
+        <Slider {...settings}>
+              <div>
+              <img src={image1} alt="" />
+              </div>
+            
+              <div>
+              <img src={image2} alt="" />
+              </div>
+                
+              <div>
+              <img src={image3} alt="" />
+              </div>
+              
+              <div>
+              <img src={image4} alt="" />
+              </div>
+              
+              <div>
+              <img src={image5} alt="" />
+              </div>
+              <div>
+              <img src={image6} alt="" />
+              </div>
+              <div>
+              <img src={image7} alt="" />
+              </div>
+              <div>
+              <img src={image8} alt="" />
+              </div>
+              <div>
+              <img src={image9} alt="" />
+              </div>
+              
+              <div>
+              <img src={blog} alt="" />
+              </div>
+            
+        </Slider>
+      </div>
         <div className="container">
         <div className="home">
               
@@ -24,9 +86,6 @@ const Home  = () => {
                   </button>
               </div>
         </div>
-        <div className="component">
-            <gallery />{gallery}
-      </div>
         <div className="education">
           <h1>EDUCATION</h1>
           <p>SVQ LEVEL 3: Business Management YMCA,Kampala,Uganda 2017</p>
