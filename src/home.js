@@ -1,21 +1,22 @@
-import React from 'react'
-import blog from './images/blog.jpeg'
+import React from 'react';
 import { Link } from 'react-router-dom';
+import gallery from './gallery';
 const Home  = () => {
   return (
     <div className='main'>
+      
         <div className="container">
         <div className="home">
-                <div className='img'>
-                <img src={blog}  alt="blog" />
-
-                </div>
+              
               <div className="objective">
                 <h3>HAKIM SSEMBATYA</h3>
-                   <h5>Food $ Beverages Outlet Assistant-Manager</h5>
-              <p>Hi, I'm Hakim an outlet assistant-manager with six years of experience supporting well-attended events and caffè operations.
-               Adept at creating innovative drink recipes, inventory manager and brewer. Thoughtful and detail-oriented theme
-                and event planner, coordinating staffing and providing guidance for employees when necessary.
+                   <h5>coffee Connoisseur| Head-Barista |Assistant-manager </h5>
+              <p>Experienced Outlet F&B Assistant Manager with a demonstrated history 
+                of working in the restaurant and Cafe industry. Skilled in Management,
+                 Rostering, Employee Training, Leadership and Team Building. 
+                 Strong operations professional with a SVQ Level 3 focused
+                  in Business Management from Institution of Higher
+                   Education for Business.
                   </p>
 
                   <button>
@@ -23,14 +24,21 @@ const Home  = () => {
                   </button>
               </div>
         </div>
+        <div className="component">
+            <gallery />{gallery}
+      </div>
+        <div className="education">
+          <h1>EDUCATION</h1>
+          <p>SVQ LEVEL 3: Business Management YMCA,Kampala,Uganda 2017</p>
+         </div>
 
          <div className="expertise">
                <h1>EXPERTISE</h1>
          <div className="expert">
           <div className="no2">
          
-            <h3>I'M A COFFEE EXPERT</h3>
-            <p>Caffè setup for example menu formation, recipe, equipment purchase.</p>
+            <h3>I'M A COFFEE CONNOISSEUR</h3>
+            <p>Cafè setup for example menu formation, recipe, equipment purchase.</p>
             <p>Cordial & great customer service, upselling & suggestive selling.</p>
             <p>Creative and beautiful latte art skills.</p>
             <p>Recipe formation for both hot and cold beverages.</p>
@@ -49,7 +57,7 @@ const Home  = () => {
           </div>
         </div>
          </div>
-
+         
         
         
         <div className="skills">
@@ -79,7 +87,7 @@ const Home  = () => {
         </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;

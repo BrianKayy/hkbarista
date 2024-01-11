@@ -316,36 +316,31 @@
   margin-top: 20px;
 }
 
-.home .img img{
-  overflow: hidden;
-  width: 350px;
-  height: 500px;
-  
-}
-
 
 
 
 
 .home .objective{
-  width: 400px;
-  height: 500px;
-  background: #fff;
+  width: 900px;
+  height: 250px;
   text-align: center;
   margin-bottom: 3px;
+  background: #ddd;
+  
 }
 .home .objective h3{
   margin-top: 30px;
-  color: #303c6c;
+  color: #182347;
   font-size: 25px;
 }
 .home .objective h5{
-  color: #777;
+  color: #444;
   font-size: 15px;
 }
 
 .home .objective p{
-  text-align: center;
+  padding: 0 10px;
+  text-align: left;
   margin-top: 40px;
   color: #000;
   font-size: 16px;
@@ -568,21 +563,16 @@ font-weight: bold;
   background-color: #fff;
   display: inline-block;
   margin-top: 50px;
-  margin-left: 50px;
+  opacity: 0.8;
 }
 .home .container{
   overflow: hidden;
 }
-.home .img img{
-width: 280px;
-height: 320px;
-}
-
 
 .home .objective{
-  
+  margin-right: 20px;
   margin-top: -5px;
-width: 280px;
+width: auto;
 height: auto;
 background: #fff;
 text-align: center;
@@ -593,12 +583,12 @@ color: #303c6c;
 font-size: 20px;
 }
 .home .objective h5{
-color: #555;
+color: #444;
 font-size: 13px;
 }
 
 .home .objective p{
-text-align: center;
+text-align: left;
 margin-top: 5px;
 color: #000;
 font-size: 13px;

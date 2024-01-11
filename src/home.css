@@ -111,6 +111,7 @@
 @media only screen and (max-width: 600px) {
     
 .expertise{
+  opacity: 0.8;
     padding: 20px 0 20px 0;
     background-color: #fff;
     display: block;
@@ -138,8 +139,9 @@
 }
 
 .expertise .expert .no2 p{
-    color: #222;
+    color: #000;
     padding-top: 5px;
+    font-size: 13px;
 }
 }
 /*--------CONTACTS-----------*/
@@ -268,4 +270,26 @@
         text-decoration: none;
         font-size: 22px;
         color: orange;
+    }
+
+    .education{
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 20px 0;
+      background-color: #fff;
+    }
+
+    .education h1{
+      font-size: 22px;
+      color: #182347;
+    }
+
+    .education p{
+      color: #111;
+      font-size: 20px;
+    }
+
+    .component{
+      display: block;
     }
